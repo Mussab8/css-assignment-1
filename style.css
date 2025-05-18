@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf4ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background: #fffaf4;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #001f3f;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #001f3f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 8px 0 4px;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #2b63d9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c4bb5;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icon {
+  background-color: #2b63d9;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.details strong {
+  display: block;
+  color: #001f3f;
+}
+
+.details p {
+  margin: 5px 0 0;
+  color: #333;
+  font-size: 14px;
+}
